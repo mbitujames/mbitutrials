@@ -1,0 +1,51 @@
+﻿body {
+    background-color:grey;
+    color:black;
+}
+.header{
+    text-align:center;
+    color:black;
+    height:100%;
+    width:auto;
+    background-color:cadetblue;
+    border:1px solid black;
+    border-radius:5px;
+}
+.nav {
+     width: 100%;
+    height:100%;
+    border: 1px solid black;
+}
+.section {
+    height: 100%;
+    width: 70%;
+    border: 1px solid black;
+    float:right;
+}
+.aside {
+    width: 25%;
+    height: 100%;
+    float: left;
+    border: 1px solid black;
+}
+.footer {
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+    text-align:center;
+    background-color:aquamarine;
+    color:black;
+}
+ul li{
+    display:inline;
+    padding:20px;
+}
+ul li a{
+    text-decoration-color:none;
+    color:black;
+}
+ul li a:hover{
+    background-color:aqua;
+    color:red;
+    text-decoration-line:none;
+}

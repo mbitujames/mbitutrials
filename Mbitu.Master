@@ -1,0 +1,41 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Mbitu.master.cs" Inherits="mbitutrials.Mbitu" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="mbitumaster.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="header">
+        <p>Welcome to MasterPage</p>
+    </div>
+    <div class="nav">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Faqs</a></li>
+        </ul>
+    </div>
+    <div class="aside">
+        <p>#Side bar</p>
+    </div>
+    <div class="section">
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+        </div>
+    <div class="footer">
+        <div class="about">
+                <p>&copy All Rigths reserved. 2021</p>
+            </div>
+    </div>
+</body>
+</html>
